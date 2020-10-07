@@ -1,0 +1,10 @@
+
+nav > .logo::before {
+    content: '';
+    width: 1px;
+    height: 104px;
+    background: #C8CCD8;
+    position: absolute;
+    left: -86px;
+    top: -52px;
+}

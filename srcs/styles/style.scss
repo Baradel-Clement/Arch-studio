@@ -3,9 +3,11 @@
 @import './1-Helpers/variables';
 
 // 2 - BASICS
+@import './2-Basics/base';
 @import './2-Basics/typography';
 
 // 3 - LAYOUT
+@import './3-Layout/banner-top-left';
 @import './3-Layout/footer';
 @import './3-Layout/navbar';
 
