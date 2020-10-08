@@ -13,7 +13,7 @@ nav {
     min-height: 152px;
     background-color: white;
     width: 100%;
-    max-width: 77.083%;
+    max-width: 1110px;
     margin: auto;
 }
 
@@ -90,6 +90,13 @@ nav {
     z-index: 1;
 }
 
+@media screen and (max-width: 1300px) {
+    nav {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     nav {
@@ -103,7 +110,7 @@ nav {
         position: fixed;
         right: 0px;
         height: 35.2323vh;
-        top: 96px;
+        top: 91.5px;
         display: flex;
         flex-flow: column nowrap;
         align-items: flex-start;

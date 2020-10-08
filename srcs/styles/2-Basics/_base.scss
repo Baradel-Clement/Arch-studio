@@ -26,3 +26,28 @@ a {
     letter-spacing: 0px;
     text-align: left;
 }
+
+.button1 {
+    background: $dark-blue;
+    font-size: 15px;
+    border: none;
+    color: white;
+    width: 252px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+.button1 svg {
+    margin-left: 20px;
+}
+
+.button1:hover {
+    transition: 0.3s ease-in-out;
+    background: $dark-grey;
+}
+
