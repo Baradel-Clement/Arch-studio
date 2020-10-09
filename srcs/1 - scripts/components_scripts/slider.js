@@ -118,6 +118,10 @@ const changeImages= () =>  {
     }
 }
 
+sliderImages();
+clickSlider();
+changeImages();
+
 export { sliderImages };
 export { clickSlider };
 export { changeImages };
