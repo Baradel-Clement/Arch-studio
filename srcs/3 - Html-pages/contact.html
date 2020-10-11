@@ -56,19 +56,69 @@
                     <p>Mail: archone@mail.com</p>
                     <p>Address:  1892  Chenoweth Drive TN</p>
                     <p>Phone: 931-492-3451</p>
-                    <a class="dark-blue">View on Map</a>
+                    <a class="dark-blue" id="view-map-two">View on Map</a>
                 </div>
                 <div class="contact-office">
                     <p>Office II</p>
                     <p>Mail: archtwo@mail.com</p>
                     <p>Address:  3399  Wines Lane TX</p>
                     <p>Phone: 832-123-4321</p>
-                    <a class="dark-blue">View on Map</a>
+                    <a class="dark-blue" id="view-map-one">View on Map</a>
                 </div>
             </div>
             <div id="map"></div>
+            <div class="contact-form-section">
+                <div class="form-title">
+                    <h2 class="dark-blue">Connect with us</h2>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-section">
+                            <input type="text" name="name" autocomplete="off" required />
+                            <label for="name" class="label">
+                                <span class="content-form">Name</span>
+                            </label>
+                        </div>
+                        <div class="form-section">
+                            <input type="email" pattern="*@*" name="email" autocomplete="off" required />
+                            <label for="email" class="label">
+                                <span class="content-form">Email</span>
+                            </label>
+                        </div>
+                        <div class="form-section">
+                            <input type="text" name="message" autocomplete="off" required />
+                            <label for="message" class="label">
+                                <span class="content-form">Message</span>
+                            </label>
+                        </div>
+                        <button id="submit-button" type="submit"></button>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
+    <footer>
+        <div class="footer-logo">
+            <a href="../../index.html">
+                <img src="../../assets/logo-white.svg" alt="logo-white">
+                <img src="../../assets/logo-white-little.svg" alt="little-logo-white">
+            </a>
+        </div>
+        <div class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="footer-nav-list-item">
+                    <a href="portfolio.html" class="footer-nav-list-link">Portfolio</a>
+                </li>
+                <li class="footer-nav-list-item">
+                    <a href="about.html" class="footer-nav-list-link">About Us</a>
+                </li>
+                <li class="footer-nav-list-item">
+                    <a href="contact.html" class="footer-nav-list-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <a href="portfolio.html" class="button1 footer-button">See Our Portfolio<svg width="26" height="20"><g fill="none" fill-rule="evenodd" stroke="white" stroke-width="2"><path d="M15 1l9 9-9 9M0 10h24"/></g></svg></a>
+    </footer>
     <script src="../1 - scripts/components_scripts/navbar.js" type="module"></script>
     <script src="../1 - scripts/components_scripts/map.js" type="text/javascript" ></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDftzKGDJN3V2RCwkJOtvIRBMYPHRUDnJM&callback=initMap"></script>

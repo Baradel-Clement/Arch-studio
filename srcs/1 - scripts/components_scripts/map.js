@@ -2,6 +2,8 @@ function initMap() {
     let location = {lat: 34.618721, lng: -89.964546 };
     let markerOne = {lat: 36.158578, lng: -86.779040 };
     let markerTwo = {lat: 32.325070, lng: -96.626604 };
+    let viewMapOne = document.getElementById('view-map-one');
+    let viewMapTwo = document.getElementById('view-map-two');
     let map = new google.maps.Map(document.getElementById('map'), {
         zoom: 5,
         center: location
@@ -33,6 +35,14 @@ function initMap() {
         map.setCenter(markerVarOne.getPosition());
     });
     markerVarTwo.addListener("click", () => {
+        map.setZoom(16);
+        map.setCenter(markerVarTwo.getPosition());
+    });
+    viewMapOne.addEventListener('click', () => {
+        map.setZoom(16);
+        map.setCenter(markerVarOne.getPosition());
+    });
+    viewMapTwo.addEventListener('click', () => {
         map.setZoom(16);
         map.setCenter(markerVarTwo.getPosition());
     });

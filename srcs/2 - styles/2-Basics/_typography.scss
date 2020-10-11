@@ -69,6 +69,10 @@ h3 {
     color: $dark-grey;
 }
 
+.red {
+    color: $red;
+}
+
 @media screen and (max-width: 1300px) {
     h1.big-header {
         font-size: 120px;

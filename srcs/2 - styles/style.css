@@ -139,6 +139,10 @@ h3 {
   color: #60636D;
 }
 
+.red {
+  color: #DF5656;
+}
+
 @media screen and (max-width: 1300px) {
   h1.big-header {
     font-size: 120px;
@@ -2003,7 +2007,196 @@ nav {
   width: 100%;
   height: 560px;
   margin-top: 200px;
-  margin-bottom: 90px;
+}
+
+.contact-form-section {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin-top: 160px;
+}
+
+.form-title {
+  width: 380px;
+  height: 351px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.form-title h2:first-child {
+  width: 255px;
+  height: 112px;
+}
+
+.contact-form {
+  width: 730px;
+  height: 356px;
+  position: relative;
+}
+
+.form-section {
+  width: 100%;
+  height: 47px;
+  position: relative;
+  overflow: hidden;
+  margin: 19px 0px;
+}
+
+.form-section:last-child {
+  margin-top: 70px;
+}
+
+.form-section input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: #1B1D23;
+  outline: none;
+  font-family: 'Spartan';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.3125px;
+}
+
+.form-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid #1B1D23;
+}
+
+.form-section label::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #1B1D23;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.content-form {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  color: #C8CCD8;
+}
+
+.form-section input:focus + .label .content-form,
+.form-section input:valid + .label .content-form {
+  opacity: 0;
+}
+
+.form-section input:focus + .label::after,
+.form-section input:valid + .label::after {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#submit-button {
+  width: 80px;
+  height: 80px;
+  background-color: #1B1D23;
+  border: none;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -20px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#submit-button:hover {
+  background-color: #60636D;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#submit-button::before {
+  content: '';
+  background-image: url(../../../assets/icons/icon-arrow-white-white.svg);
+  background-size: cover;
+  width: 24px;
+  height: 18px;
+  position: relative;
+  left: 29px;
+  top: 29px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-form-section {
+    width: 90%;
+    height: 430px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .contact-form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form-section {
+    width: 90%;
+    margin: 100px auto 0px auto;
+    height: 430px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .contact-form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
 }
 
 .welcome-section {
