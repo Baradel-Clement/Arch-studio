@@ -52,6 +52,7 @@ Users should be able to:
 * Slider with native JS
 * Tricky Absolute/Relative position
 * Contact section (without mailing)
+* Use GoogleMaps API and pin coordinates
 
 ## Author
 
