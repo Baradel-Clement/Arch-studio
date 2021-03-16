@@ -27,7 +27,7 @@ Users should be able to:
 - **Bonus**: View actual locations on the contact page map. The addresses we have on the design are fictional, so you'll need to add real addresses for this bonus task.
 
 ### Screenshot
-![screenshot](./screenshot.jpg)
+![screenshot](./screenshot.png)
 
 
 ### Links
