@@ -17,7 +17,7 @@ This is a solution to the [Arch Studio multi-page website challenge on Frontend 
 
 ### The challenge
 
-Users should be able t
+Users should be able to:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
@@ -27,7 +27,7 @@ Users should be able t
 - **Bonus**: View actual locations on the contact page map. The addresses we have on the design are fictional, so you'll need to add real addresses for this bonus task.
 
 ### Screenshot
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.jpg)
 
 
 ### Links
