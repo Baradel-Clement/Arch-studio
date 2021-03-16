@@ -17,7 +17,7 @@ This is a solution to the [Arch Studio multi-page website challenge on Frontend 
 
 ### The challenge
 
-Users should be able to:
+Users should be able t
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
